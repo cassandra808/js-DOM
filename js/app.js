@@ -6,6 +6,8 @@ Find the div with the id of "name1" and replace the n/a with the following:
 
 Tay-Tay*/
 
+var divElem = document.getElementById ("name1");
+divElem.innerHTML = "Tay-Tay";
 
 /*2. DJ Khaled
 

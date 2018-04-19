@@ -6,8 +6,8 @@ Find the div with the id of "name1" and replace the n/a with the following:
 
 Tay-Tay*/
 
-var divElem = document.getElementById ("name1");
-divElem.innerHTML = "Tay-Tay";
+var divElemTay = document.getElementById ("name1");
+divElemTay.innerHTML = "Tay-Tay";
 
 /*2. DJ Khaled
 
@@ -15,6 +15,8 @@ Find the div with the id of "position2" and replace the n/a with the following:
 
 Project Manager*/
 
+var divElemDj = document.getElementById ("position2");
+divElemDj.innerHTML = "Project Manager";
 
 /*3. Piko Taro
 

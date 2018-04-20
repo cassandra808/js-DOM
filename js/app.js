@@ -24,7 +24,7 @@ Find the div with the id of "alias3" and replace the n/a with the following:
 
 Concatenation*/
 
-divElemPiko = document.getElementById ("alias3");
+var divElemPiko = document.getElementById ("alias3");
 divElemPiko.innerHTML = "Concatenation";
 
 
@@ -32,13 +32,15 @@ divElemPiko.innerHTML = "Concatenation";
 
 Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
 
-
+var divPrince  = document.getElementsByClassName("profile")
+divPrince[0].innerHTML = '"Purple Rain!!"'
 
 /*5. Bruce Lee
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
 
-
+var divBruce  = document.getElementsByClassName("profile")
+divBruce[1].innerHTML = '"Adapt what is useful, reject what is useless, and add what is specifically your own."'
 
 /*6. Samuel L Jackson
 

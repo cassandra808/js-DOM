@@ -46,7 +46,8 @@ divBruce[1].innerHTML = '"Adapt what is useful, reject what is useless, and add 
 
 Find the div with the class name of "alias" and replace the n/a with your favorite character that Sammy portrayed.*/
 
-
+var divSam  = document.getElementsByClassName("alias")
+divSam[2].innerHTML = "Jules Winnfield"
 
 /*7. Peter Griffin
 

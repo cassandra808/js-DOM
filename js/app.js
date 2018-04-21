@@ -77,3 +77,27 @@ divAlias.appendChild (divTim);
 //Final Boss
 /*9. Create your own profile.*/
 
+var divImg = document.getElementsByTagName ("img");
+divImg[8].src = "https://i.pinimg.com/originals/08/1c/31/081c3152836e8fa22bf1ba9c90755e42.jpg";
+
+var divBlockCass = document.getElementsByClassName ("block3 col-sm-4")
+var divCassName = document.createElement ("div");
+divCassName.id = "name9";
+divCassName.innerHTML = "Cass Loh";
+divBlockCass[2].appendChild (divCassName)
+
+var divCassPosition = document.createElement ("div");
+divCassPosition.id = "position9";
+divCassPosition.innerHTML = "DevStudent";
+divBlockCass[2].appendChild (divCassPosition)
+
+var divCassAlias = document.createElement ("div");
+divCassAlias.id = "alias9";
+divCassAlias.innerHTML = "Prepster";
+divBlockCass[2].appendChild (divCassAlias)
+
+var divCassProfile = document.createElement ("div");
+divCassProfile.id = "profile";
+divCassProfile.innerHTML = '"I can do it!"';
+divCassProfile.align = "center"
+divBlockCass[2].appendChild (divCassProfile)
